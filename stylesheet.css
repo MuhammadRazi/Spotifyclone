@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Satisfy&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Satisfy&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+
+body{
+    background-color: rgb(5, 5, 5);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family:'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+ 
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 68px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url('images/APdhillon.jpg');
+   
+}
+.bottom{
+    position: sticky;
+    height: 122px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom input{
+    height: 1px;
+}
+.icons{
+   
+    margin-top: 15px;
+}
+.icons i{
+    padding: 0 15px;
+    cursor: pointer;
+}
+.icons i:hover{
+color: rgb(85, 166, 210);
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+.songitemcontainer{
+    margin-top: 80px;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 13px;
+}
+.songitem img{
+    width: 82px;
+    border-radius: 13px;
+    margin-left: 2px;
+    
+}
+.songitem span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.songinfo img{
+opacity: 0;
+transition: opacity 1s ease-in;
+font-family: 'Varela Round', sans-serif;
+}
