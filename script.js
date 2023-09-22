@@ -1,4 +1,3 @@
-console.log('welcome');
 let songIndex=0;
 let audioElement=new Audio('songs/Tareef.mp3');
 let masterPlay=document.getElementById('masterPlay');
